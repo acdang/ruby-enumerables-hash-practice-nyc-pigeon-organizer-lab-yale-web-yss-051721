@@ -21,9 +21,8 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value_hash), final_array|
     value_hash.each do |inner_key, value_array|
-      
+      binding.pry
     end
-    binding.pry
   end
 end
 
