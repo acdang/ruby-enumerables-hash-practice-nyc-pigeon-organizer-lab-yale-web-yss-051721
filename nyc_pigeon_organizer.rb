@@ -18,11 +18,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
-  data.each do |key, hash_value|
-    data.each do |key, value|
-      puts value
-    end
-  end
+  data.each_
 end
 
 nyc_pigeon_organizer(pigeon_data)
